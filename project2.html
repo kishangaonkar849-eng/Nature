@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>web</title>
+<style>
+  body {
+    background-color:#f2fff2;
+    font-family: Arial;
+  }
+
+  h1 {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width:380;
+	text-align:center;
+	
+  }
+
+  .photo-group {
+    display: flex;
+    justify-content: center;
+    gap: 400px; 
+    flex-wrap: wrap;  
+    padding: 20px;
+  }
+
+   img,video {
+    width: 250px;
+    height: 170px;
+    border-radius:10px;
+    border: 2px solid green;
+  }
+  table,th,td{
+  border:4px solid #3cb371;
+  margin-left:auto;
+  margin-right:auto;
+  }
+ .a{
+  background-color:green;
+  }
+  marquee{
+  font-size:30px;
+  }
+  th{
+  background-color:#c1f0c1;
+  }
+button{
+width:80px;
+background:green;
+	text-align:center;
+
+}
+a{
+text-decoration:none;
+color:white;
+font-wieght:bold;
+}
+.a{
+color:white;
+text-transform:uppercase;
+}
+  
+</style>
+</head>
+
+<body>
+
+
+<section class="gallery">
+<h1>Grouped Nature Photos & Video</h1>
+<table>
+<tr>
+<th colspan="4" class="a" ><marquee>Nature Gallery Photos and Video(Table)</marquee></th>
+<tr>
+<tr>
+<th>Image</th>
+<th>Video</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+
+ <td> <img src="mountain.jpg" alt="Forest"></td>
+ <td><video src="mountain.mp4" controls muted loop></video></td>
+ <td>Mountain View</td>
+ <td>Peaceful mountains covered with greenery</td>
+ </tr>
+ 
+ <tr>
+ <td> <img src="path.jpg" alt="Forest"></td>
+ <td><video src="path.mp4"controls  muted loop></video></td>
+ <td>Forest Path</td>
+ <td>A small path through a dense forest</td>
+ </tr>
+ 
+ 
+ <tr>
+ <td> <img src="lake.jpg" alt="Forest"></td>
+ <td><video src="lake.mp4" controls  muted loop></video></td>
+ <td>Lake view </td>
+ <td>Beautiful sunset over a calm lake</td>
+ </tr>
+ </table>
+  
+</section><br><br><center>
+ <button ><a href="index.html"><--Home</a></button></cenetr>
+
+</body>
+</html>
